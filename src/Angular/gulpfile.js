@@ -9,7 +9,6 @@ gulp.task('clean', function () {
     return gulp.src(destPath)
         .pipe(clean());
 });
-
 gulp.task("scriptsNStyles", () => {
     gulp.src([
             'es6-shim/es6-shim.min.js',
