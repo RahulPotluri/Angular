@@ -3,6 +3,10 @@
   "compilationOptions": {
     "emitEntryPoint": true
   },
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
+  },
 
   "dependencies": {
     "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",

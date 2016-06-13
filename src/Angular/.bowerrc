@@ -1,5 +1,4 @@
 {
-  "directory": "wwwroot/lib",
-  "proxy": "internet.hrblock.net:8080",
-  "https-proxy": "internet.hrblock.net:8080"
+  "directory": "../libs",
+  "proxy": "http://internet.hrblock.net:8080"
 }
