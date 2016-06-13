@@ -31,5 +31,6 @@
   "publishExclude": [
     "**.user",
     "**.vspscc"
-  ]
+  ],
+  "userSecretsId": "aspnet-Angular-20160613010223"
 }
