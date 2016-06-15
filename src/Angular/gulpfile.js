@@ -21,6 +21,8 @@ gulp.task("scriptsNStyles", () => {
             '@angular/**',
             'jquery/dist/jquery.*js',
             'bootstrap/dist/js/bootstrap.*js',
+            'primeng/**',
+            'primeui/**'
     ], {
         cwd: "node_modules/**"
     })

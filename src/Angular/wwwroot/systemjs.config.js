@@ -5,7 +5,8 @@
         'app': 'appScripts', // 'dist',
         'rxjs': 'libs/rxjs',
         'angular2-in-memory-web-api': 'libs/angular2-in-memory-web-api',
-        '@angular': 'libs/@angular'
+        '@angular': 'libs/@angular',
+        'primeng': 'node_modules/primeng'
     };
 
     // packages tells the System loader how to load when no filename and/or no extension
@@ -13,6 +14,7 @@
         'app': { main: 'boot.js', defaultExtension: 'js' },
         'rxjs': { defaultExtension: 'js' },
         'angular2-in-memory-web-api': { defaultExtension: 'js' },
+        'primeng': { defaultExtension: 'js' }
     };
 
     var packageNames = [
